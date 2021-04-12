@@ -1,0 +1,55 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "speak": "Stock News",
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "finance yahoo",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Image",
+                            "url": "https://s.yimg.com/uu/api/res/1.2/0PJvXeUYYQZuLyHjgYC45Q--~B/aD05NjA7dz0xNDQwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en-us/bizjournals.com/ded9512e6c7b61074f56c735acf89867",
+                            "altText": "{imageAlt}",
+                            "size": "Large",
+                            "spacing": "Medium",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "The Funded: 12 Bay Area startups raise over $650M in midweek deals",
+                            "weight": "Bolder",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "$when": "2020-01-22T20:37:12.000Z",
+                            "text": "2020-01-22T20:37:12.000Z",
+                            "isSubtle": true,
+                            "spacing": "None",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Twelve startups disclosed more than $650 million in venture funding deals at midweek in the Bay Area. Here's more on that and other venture news.",
+                            "size": "Small",
+                            "wrap": true,
+                            "maxLines": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
